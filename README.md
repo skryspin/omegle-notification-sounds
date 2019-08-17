@@ -16,6 +16,6 @@ That's about it!
 Thanks to Chrome for their easy-to-follow [Getting Started](https://developer.chrome.com/extensions/getstarted) guide which helped me learn how to make Chrome Extensions. 
 
 ## Future Plans
-I plan to allow users to choose their own notification sound by providing a link. Currently we use [this sound]: (https://notificationsounds.com/message-tones/appointed-529)
+I plan to allow users to choose their own notification sound by providing a link. Currently we use [this sound](https://notificationsounds.com/message-tones/appointed-529).
 
 
