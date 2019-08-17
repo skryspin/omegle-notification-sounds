@@ -1,0 +1,32 @@
+{
+    "name": "Adds Notification Sounds to Omegle",
+    "version": "1.0",
+    "description": "Adds a notification sound when receiving new messages on Omegle. You may disable the sounds by clicking on the extension while on the website.",
+    "permissions":["declarativeContent", "storage"],
+    "page_action":{
+      "default_popup":"popup.html",
+      "default_icon": {
+        "16": "images/get_started16.png",
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png",
+        "128": "images/get_started128.png"
+      }
+    },
+    "background": {
+          "scripts": ["background.js"],
+          "persistent": false
+        },
+    "icons": {
+     "16": "images/get_started16.png",
+     "32": "images/get_started32.png",
+     "48": "images/get_started48.png",
+     "128": "images/get_started128.png"
+   },
+    "content_scripts": [{
+        "js": ["contentscript.js"],
+        "matches": ["https://www.omegle.com/*"]
+    }],
+
+
+  "manifest_version": 2
+}
