@@ -1,4 +1,4 @@
-# omegle-notification-sounds
+# Omegle Notification Sounds Chrome Extension
 This Chrome Extension adds a notification sound when receiving new messages on [Omegle](https://omegle.com). You may disable the sounds by clicking on the extension icon next to the address bar and toggling the checkbox while on the website.
 
 ## Getting Started
