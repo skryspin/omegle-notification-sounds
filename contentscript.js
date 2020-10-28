@@ -1,5 +1,5 @@
 
-var audio = new Audio('https://notificationsounds.com/message-tones/appointed-529/download/mp3');
+var audio = new Audio('https://proxy.notificationsounds.com/message-tones/appointed-529/download/file-sounds-1076-appointed.mp3');
 
   function makeMessageObserver(DivThatHoldsMessages) {
     console.log("new message observer");
@@ -38,8 +38,3 @@ var audio = new Audio('https://notificationsounds.com/message-tones/appointed-52
 
       // Start observing the target node for configured mutations
       observer.observe(body, watch);
-
-
-
-
-
