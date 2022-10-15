@@ -26,6 +26,9 @@
         "js": ["contentscript.js"],
         "matches": ["https://www.omegle.com/*"]
     }],
+    "web_accessible_resources": [
+        "audio/appointed-529.mp3"
+    ],
 
 
   "manifest_version": 2

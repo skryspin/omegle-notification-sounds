@@ -1,5 +1,5 @@
 
-var audio = new Audio('https://proxy.notificationsounds.com/message-tones/appointed-529/download/file-sounds-1076-appointed.mp3');
+var audio = new Audio(chrome.runtime.getURL('audio/appointed-529.mp3'));
 
   function makeMessageObserver(DivThatHoldsMessages) {
     console.log("new message observer");
